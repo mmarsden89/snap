@@ -1,0 +1,16 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  .depreciated {
+    position: absolute;
+    background-color: brown;
+    padding: 10px;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+}
