@@ -1,0 +1,237 @@
+// @import "../../Styles/colors";
+$orange: rgb(189, 144, 61);
+$darkestblue: #020c1b;
+$darkblue: #060f1d;
+$navy: #0a192f;
+$teal: #008080;
+$lightblue: #22344e;
+$lightblueopac: rgba(34, 52, 78, 0.9);
+$white: white;
+$gray: #777575;
+$darkgray: #222121;
+
+.arrow {
+  margin-right: 5px;
+  color: $teal;
+}
+
+.introduction {
+  margin: 0 25px;
+}
+
+.hello {
+  font-size: clamp(25px, 2.5vw, 40px);
+  white-space: nowrap;
+}
+
+.specialize {
+  font-size: clamp(18px, 1vw, 20px);
+}
+
+.terminal-container {
+  width: 950px;
+  height: 245px;
+  background-color: $darkestblue;
+  font-family: "Monaco";
+  color: $teal;
+  overflow-y: scroll;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
+
+.terminal-hello-container-animated {
+  animation: animateHelloText 4.5s linear;
+}
+
+@keyframes animateHelloText {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+  75% {
+    opacity: 0;
+    height: 0;
+  }
+  85% {
+    height: 100%;
+    opacity: 0;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+.hello-text {
+  color: $teal;
+}
+
+.terminal-input {
+  border: none;
+  background-color: $darkestblue;
+  outline: none;
+  color: $teal;
+  font-size: 15px;
+  font-family: "Monaco";
+  width: calc(100% - 25px);
+  margin-left: 5px;
+  padding-top: 5px;
+}
+
+.input-container {
+  animation: terminalInputAnimation 8.5s linear;
+  // margin-bottom: -10px;
+  width: 950px;
+}
+
+label {
+  background-color: $darkestblue;
+}
+
+@keyframes terminalInputAnimation {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tool-text-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4px;
+}
+
+.tools-link {
+  cursor: pointer;
+  color: $orange;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.web-link {
+  color: blue;
+  cursor: pointer;
+  width: 250px;
+}
+
+.web-link:hover {
+  color: rgb(14, 14, 117);
+}
+
+.tools-link:hover {
+  color: rgb(150, 100, 0);
+}
+
+.txt-link {
+  color: purple;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.txt-link:hover {
+  color: rgb(90, 1, 90);
+}
+
+form {
+  position: fixed;
+  width: 100%;
+  background-color: $darkestblue;
+}
+
+.terminal-return-container {
+  height: 50px;
+  z-index: 3;
+}
+
+span {
+  display: flex;
+}
+
+.help-window {
+  height: 200px;
+  width: 300px;
+  background-color: $darkestblue;
+}
+
+.click-instructions {
+  display: inline-block;
+}
+
+.orange {
+  display: inline-block;
+  color: $orange !important;
+  margin: 0;
+}
+
+.loading-snap {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: textAnimation 1s steps(15, end) 3;
+  letter-spacing: 0.2em;
+  opacity: 0;
+  position: absolute;
+}
+
+@keyframes textAnimation {
+  from {
+    width: 0%;
+    opacity: 1;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .smallscreen-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction {
+    margin-top: 25px;
+  }
+
+  .hello {
+    font-size: 40px;
+  }
+
+  .specialize {
+    font-size: 27px;
+  }
+
+  .tools {
+    width: 90%;
+    margin: 15px 0;
+  }
+
+  .tools > h3 {
+    text-align: center;
+  }
+
+  .tool-container {
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin-left: 7vw;
+  }
+}
+.outer-term {
+  background-color: transparent;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
