@@ -74,7 +74,7 @@ const Terminal = () => {
         }
       }
     } else if (inputText.includes("open")) {
-      window.open(inputText.split(" ")[1]);
+      // window.open(inputText.split(" ")[1]);
     } else {
       updated.push(`-snap: ${inputText}: command not found`);
     }

@@ -1,10 +1,10 @@
 const TextFiles = {
   "#languages&tools.txt": [
-    "JavaScript, Python",
-    "(Postgre)SQL, MongoDb",
+    "JavaScript, Python,",
+    "(Postgre)SQL, MongoDb,",
     "React, Node",
-    "Express, Amazon Web Services(AWS)",
-    "Git / Github",
+    "Express, Amazon Web Services(AWS),",
+    "Git / Github,",
     "HTML, CSS / SASS",
   ],
   "#aboutme.txt":
