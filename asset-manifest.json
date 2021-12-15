@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/snap/static/css/main.e57e0942.chunk.css",
-    "main.js": "/snap/static/js/main.759f1a1f.chunk.js",
-    "main.js.map": "/snap/static/js/main.759f1a1f.chunk.js.map",
+    "main.css": "/snap/static/css/main.eaadbe86.chunk.css",
+    "main.js": "/snap/static/js/main.3ed83e70.chunk.js",
+    "main.js.map": "/snap/static/js/main.3ed83e70.chunk.js.map",
     "runtime-main.js": "/snap/static/js/runtime-main.985e76a3.js",
     "runtime-main.js.map": "/snap/static/js/runtime-main.985e76a3.js.map",
     "static/js/2.dbef57e7.chunk.js": "/snap/static/js/2.dbef57e7.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.bbae03ee.chunk.js": "/snap/static/js/3.bbae03ee.chunk.js",
     "static/js/3.bbae03ee.chunk.js.map": "/snap/static/js/3.bbae03ee.chunk.js.map",
     "index.html": "/snap/index.html",
-    "static/css/main.e57e0942.chunk.css.map": "/snap/static/css/main.e57e0942.chunk.css.map",
+    "static/css/main.eaadbe86.chunk.css.map": "/snap/static/css/main.eaadbe86.chunk.css.map",
     "static/js/2.dbef57e7.chunk.js.LICENSE.txt": "/snap/static/js/2.dbef57e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.985e76a3.js",
     "static/js/2.dbef57e7.chunk.js",
-    "static/css/main.e57e0942.chunk.css",
-    "static/js/main.759f1a1f.chunk.js"
+    "static/css/main.eaadbe86.chunk.css",
+    "static/js/main.3ed83e70.chunk.js"
   ]
 }
