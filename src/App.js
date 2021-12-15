@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <Terminal />
-      <div className="depreciated">
-        Snap has been depreciated. Thanks for checking it out!
+      <div className="deprecated">
+        Snap has been deprecated. Thanks for checking it out!
       </div>
     </div>
   );
